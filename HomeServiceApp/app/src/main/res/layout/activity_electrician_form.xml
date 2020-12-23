@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/form"
+    android:padding="20dp"
+
+    android:orientation="horizontal"
+    tools:context=".electricianForm">
+    <RadioGroup
+        android:id="@+id/radiogrp_electrical_service_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:paddingLeft="10dp"
+            android:text="Choose your required Service:"
+            android:typeface="serif"
+            android:textColor="#ffff"
+            android:textSize="20dp"
+            />
+
+
+            <RadioButton
+                android:id="@+id/generel_btn"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:textColor="#ffff"
+                android:text="General"
+                android:textSize="18sp"
+
+                android:typeface="sans"
+                />
+
+
+
+
+
+
+
+
+
+
+            <RadioButton
+                android:id="@+id/ac_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="AC Repair"
+                android:textColor="#ffff"
+
+
+                android:textSize="18sp"
+                android:typeface="sans"
+                />
+
+            <RadioButton
+                android:id="@+id/ips_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:textSize="18sp"
+                android:textColor="#ffff"
+                android:text="IPS Installtion and Repair"
+                android:typeface="sans"
+                />
+
+
+
+
+         <RadioButton
+             android:id="@+id/tv_btn"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_marginTop="5dp"
+             android:textSize="18sp"
+             android:textColor="#ffff"
+             android:text="TV Repair"
+             />
+
+
+
+
+          <RadioButton
+              android:id="@+id/security_cam_btn"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_marginTop="5dp"
+              android:textSize="18sp"
+              android:textColor="#ffff"
+
+              android:text="Secuity Cam Installtion"
+              />
+
+
+
+            <RadioButton
+                android:id="@+id/freeze_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:textSize="18sp"
+                android:textColor="#ffff"
+
+                android:text="Freeze Repair"
+                android:typeface="serif"
+                />
+
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="38dp"
+
+            android:text="SUBMIT"
+            android:id="@+id/electrician_form_confirm_id"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="30dp"
+
+
+            />
+
+
+     </RadioGroup>
+
+
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/electrician_form_info_id"
+        android:layout_marginTop="48dp"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@drawable/ic_info_black_24dp"
+
+
+
+        />
+
+
+
+</LinearLayout>
+
+
+
+        </LinearLayout>
+

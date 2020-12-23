@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ServiceList"
+    android:background="#D00B011D"
+
+
+    >
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+
+        >
+
+        <ImageButton
+            android:id="@+id/image_btn_tutor"
+            android:layout_width="220dp"
+            android:layout_height="200dp"
+            android:src="@drawable/tutor1"
+
+            android:layout_marginBottom="15dp"
+
+
+            />
+        <ImageButton
+            android:id="@+id/image_btn_plumber"
+            android:layout_width="220dp"
+            android:layout_height="200dp"
+            android:src="@drawable/plumber1"
+            android:layout_marginBottom="15dp"
+            android:layout_gravity="center"
+
+            />
+        <ImageButton
+            android:id="@+id/image_btn_electrician"
+            android:layout_width="220dp"
+            android:layout_height="200dp"
+            android:src="@drawable/eletrician1"
+            android:layout_gravity="center"
+            android:layout_marginBottom="15dp"
+
+            />
+
+
+    </LinearLayout>
+
+</ScrollView>

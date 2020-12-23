@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">HomeService</string>
+    <string name="title_activity_home_page">HomePageActivity</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="nav_open">Open</string>
+    <string name="nav_close">Close</string>
+</resources>

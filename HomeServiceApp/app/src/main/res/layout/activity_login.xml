@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background2"
+    tools:context=".login">
+
+
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        />
+
+
+    <EditText
+        android:id="@+id/userID"
+        android:layout_width="wrap_content"
+
+        android:layout_height="38dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="220dp"
+
+
+        android:ems="10"
+        android:hint="Contact No"
+        android:inputType="phone"
+        android:textColorHint="#D0111010"
+        android:textColor="@android:color/holo_red_dark"
+        android:background="#F5EEF7"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.378"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.344" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="wrap_content"
+        android:layout_height="38dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="#FEF9FF"
+
+        android:textColorHint="#D0111010"
+
+        android:ems="10"
+        android:hint="password"
+        android:inputType="textPassword"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.605"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.45" />
+
+
+
+        <Button
+            android:id="@+id/login_signIn_btn"
+            android:layout_width="217dp"
+            android:layout_height="45dp"
+            android:textColor="#F8F7F7"
+            android:background="#221144"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="96dp"
+            android:text="Sign In"
+            />
+
+    <TextView
+        android:id="@+id/textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="Not Having An Account? REGISTER First"
+
+        android:textColor="#F5F7F5"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.464"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.645" />
+    <Button
+        android:id="@+id/login_register_btn"
+        android:layout_width="217dp"
+        android:layout_height="45dp"
+        android:background="#221144"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="96dp"
+        android:text="Register"
+        android:textColor="#F8F7F7"
+        />
+
+</LinearLayout>

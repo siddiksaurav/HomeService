@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E6030931"
+
+
+    tools:context=".RegisterActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="45dp"
+        android:layout_marginTop="100dp"
+
+        >
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:focusable="true"
+            android:focusableInTouchMode="true">
+
+            <EditText
+                android:id="@+id/provider_name"
+                android:layout_width="match_parent"
+                android:layout_height="38dp"
+                android:ems="10"
+                android:hint="Name: "
+
+                android:inputType="text"
+                android:textSize="20sp"
+                android:textColor="#141414"
+                android:background="#F8FCF7F4"
+                />
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:focusable="true"
+            android:focusableInTouchMode="true">
+
+            <EditText
+                android:id="@+id/provider_password"
+                android:layout_width="match_parent"
+                android:layout_height="38dp"
+                android:ems="10"
+                android:hint="password"
+                android:inputType="textPassword"
+                android:textSize="20sp"
+                android:textColor="#141414"
+                android:background="#F8FCF7F4"
+                />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:focusable="true"
+            android:focusableInTouchMode="true">
+
+            <EditText
+                android:id="@+id/provider_location"
+                android:layout_width="match_parent"
+                android:layout_height="38dp"
+                android:ems="2"
+                android:hint="user Location"
+                android:inputType="text"
+                android:textSize="20sp"
+                android:textColor="#141414"
+                android:background="#F8FCF7F4"
+                />
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:focusable="true"
+            android:focusableInTouchMode="true">
+
+            <EditText
+                android:id="@+id/provider_contact_No"
+                android:layout_width="match_parent"
+                android:layout_height="38dp"
+                android:ems="10"
+                android:hint="Contact No"
+                android:inputType="phone"
+                android:textColor="#141414"
+                android:background="#F8FCF7F4"
+                android:textSize="20sp" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:focusable="true"
+            android:focusableInTouchMode="true">
+
+            <EditText
+                android:id="@+id/provider_NId"
+                android:layout_width="match_parent"
+                android:layout_height="38dp"
+                android:ems="10"
+                android:hint="NId "
+                android:inputType="number"
+                android:textColor="#141414"
+                android:background="#F8FCF7F4"
+                android:textSize="20sp" />
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:focusable="true"
+            android:focusableInTouchMode="true">
+
+            <EditText
+                android:id="@+id/provider_email"
+                android:layout_width="match_parent"
+                android:layout_height="38dp"
+                android:ems="10"
+                android:hint="Email Address"
+                android:inputType="textEmailAddress"
+                android:textColor="#141414"
+                android:background="#F8FCF7F4"
+                android:textSize="20sp" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+
+
+        <Button
+            android:id="@+id/btn_register"
+            android:layout_width="match_parent"
+            android:layout_height="38dp"
+            android:layout_marginTop="40dp"
+
+            android:background="@drawable/ic_launcher_background"
+            android:text="REGISTER"
+            android:textColor="#F8F7F7"
+            android:textSize="22sp" />
+    </LinearLayout>
+</ScrollView>

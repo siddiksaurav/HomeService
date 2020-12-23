@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background1"
+    tools:context=".tutorService">
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <RadioGroup
+            android:id="@+id/radiogrp_class"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingLeft="5dp"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+
+                android:text=" Select Class :"
+                android:textColor="#3C1717"
+                android:textSize="20dp"
+
+
+                />
+
+            <RadioButton
+                android:id="@+id/class6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="60dp"
+
+                android:layout_marginTop="5dp"
+                android:text="class 6" />
+
+            <RadioButton
+                android:id="@+id/class7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="60dp"
+                android:text="class 7" />
+
+            <RadioButton
+                android:id="@+id/class8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="60dp"
+                android:text="class 8" />
+
+            <RadioButton
+                android:id="@+id/classSsc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="60dp"
+                android:text="SSC" />
+
+            <RadioButton
+                android:id="@+id/classHSC"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="60dp"
+                android:text="HSC" />
+
+            <RadioButton
+                android:id="@+id/classAdmission"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="60dp"
+                android:text="Admission" />
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/btn_class_select"
+            android:layout_width="75dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/button_rounded"
+            android:textColor="#FCF7F7"
+            android:text="Select " />
+
+
+        <RadioGroup
+            android:id="@+id/radiogrp_division"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:orientation="horizontal"
+
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:paddingLeft="15dp"
+                android:text="Division:"
+                android:textColor="#FAFAFA"
+                android:textSize="20dp"
+                />
+
+            <RadioButton
+
+                android:id="@+id/division_science"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+
+                android:text="Science" />
+
+            <RadioButton
+                android:id="@+id/division_arts"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+
+                android:text="Arts" />
+
+            <RadioButton
+                android:id="@+id/division_commerce"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+
+                android:text="Commerece" />
+
+            <RadioButton
+                android:id="@+id/division_none"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+
+                android:text="None" />
+        </RadioGroup>
+        <Button
+            android:id="@+id/btn_division_select"
+            android:layout_width="68dp"
+            android:layout_height="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/button_rounded"
+            android:textColor="#FCF7F7"
+            android:text="Select "/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:textColor="#00EEE8E8"
+            android:text="Choose Subjects "
+            android:textSize="20dp"
+            android:paddingLeft="5dp"
+            />
+
+        <CheckBox
+            android:id="@+id/sub_physics"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Physics" />
+
+        <CheckBox
+            android:id="@+id/sub_chemistry"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Chemistry" />
+
+        <CheckBox
+            android:id="@+id/sub_math"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Math" />
+
+        <CheckBox
+            android:id="@+id/sub_ict"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="ICT" />
+
+        <CheckBox
+            android:id="@+id/sub_biology"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="BioLogy" />
+
+        <CheckBox
+            android:id="@+id/sub_economics"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+
+            android:text="Economics" />
+
+        <CheckBox
+            android:id="@+id/sub_bangla"
+            android:layout_width="wrap_content"
+            android:layout_height="34dp"
+            android:layout_margin="10dp"
+            android:text="Bangla" />
+
+        <CheckBox
+            android:id="@+id/sub_english"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="English" />
+
+        <CheckBox
+            android:id="@+id/sub_islamic_history"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Islamic History" />
+        <Button
+            android:id="@+id/btn_slected_sub"
+            android:layout_width="68dp"
+            android:layout_height="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/button_rounded"
+            android:text="Okay"
+
+            />
+
+        <Button
+            android:id="@+id/btn_tutor_form_submit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="10dp"
+            android:background="@drawable/button_rounded"
+            android:text="SUBMIT " />
+
+    </LinearLayout>
+
+</ScrollView>

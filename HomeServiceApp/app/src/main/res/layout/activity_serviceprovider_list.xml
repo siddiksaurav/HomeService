@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ServiceproviderList"
+    android:background="@drawable/background2"
+    android:padding="20dp"
+    android:orientation="vertical">
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:orientation="horizontal"
+         >
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="match_parent">
+
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="165dp"
+        android:id="@+id/service_provider_picture_id"
+        android:layout_marginLeft="10dp"
+       />
+          <LinearLayout
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              >
+
+
+    <TextView
+
+        android:id="@+id/serviceman_name_textview_id"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textSize="22sp"
+        android:paddingLeft="10dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="#161515"
+        android:background="#C4F1EEED"
+
+
+        />
+
+    <TextView
+
+        android:id="@+id/serviceman_rating_textview_id"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp"
+        android:textSize="22sp"
+
+        android:textColor="#161515"
+        android:background="#C4F1EEED"
+
+
+
+
+        />
+
+    <TextView
+
+        android:id="@+id/serviceman_experience_textview_id"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textColor="#161515"
+        android:background="#C4F1EEED"
+        android:textSize="22sp"
+
+
+        android:layout_marginLeft="10dp"
+
+
+
+
+
+        />
+         <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:orientation="horizontal"
+             >
+
+
+
+        <Button
+            android:id="@+id/confirm_service_provider_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Confirm"
+           android:layout_marginLeft="10dp"
+            android:textColor="#ECEAEA"
+            android:background="#B4FF5722"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/map_location_id"
+            android:text="Cancel"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="25dp"
+            android:textColor="#ECEAEA"
+            android:background="#B4FF5722"
+            />
+
+
+         </LinearLayout>
+         </LinearLayout>
+         </LinearLayout>
+
+
+     </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/msg_view_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:textColor="#ffff"
+            android:text="CURRENTLY NO ELECTRICIAN AVAILABLE!,TRY LATER!"
+            android:textSize="25sp"
+            android:visibility="invisible"
+            />
+
+    </LinearLayout>
+
+
+</LinearLayout>

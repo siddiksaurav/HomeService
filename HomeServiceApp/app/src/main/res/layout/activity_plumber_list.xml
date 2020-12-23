@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ServiceproviderList"
+    android:background="@drawable/background2"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="165dp"
+                android:id="@+id/plumber_picture_id"
+                android:layout_marginLeft="10dp"
+                />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                >
+
+
+                <TextView
+
+                    android:id="@+id/plumber_name_textview_id"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:textSize="22sp"
+                    android:paddingLeft="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:textColor="#161515"
+                    android:background="#C4F1EEED"
+
+
+                    />
+
+                <TextView
+
+                    android:id="@+id/plumber_rating_textview_id"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="10dp"
+                    android:textSize="22sp"
+
+                    android:textColor="#161515"
+                    android:background="#C4F1EEED"
+
+
+
+
+                    />
+
+                <TextView
+
+                    android:id="@+id/plumber_experience_textview_id"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:textColor="#161515"
+                    android:background="#C4F1EEED"
+                    android:textSize="22sp"
+
+
+                    android:layout_marginLeft="10dp"
+
+
+
+
+
+                    />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    >
+
+
+
+                    <Button
+                        android:id="@+id/confirm_plumber_id"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="Confirm"
+                        android:layout_marginLeft="10dp"
+                        android:textColor="#ECEAEA"
+                        android:background="#B4FF5722"
+                        />
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/plumber_cancel_id"
+                        android:text="Cancel"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginLeft="25dp"
+                        android:textColor="#ECEAEA"
+                        android:background="#B4FF5722"
+                        />
+
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

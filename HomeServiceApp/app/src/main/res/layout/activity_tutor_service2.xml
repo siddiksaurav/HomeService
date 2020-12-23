@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".tutorService"
+
+
+    >
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/form"
+    android:padding="10dp"
+    >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+
+        android:text=" Select Class :"
+        android:typeface="serif"
+        android:textColor="#ffff"
+        android:textSize="20dp"
+        />
+    <RadioGroup
+        android:id="@+id/radiogrp_class_id"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:paddingLeft="5dp">
+
+
+        <RadioButton
+            android:id="@+id/classSSC_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#ffff"
+            android:text="SSC"
+            android:typeface="serif"
+            />
+
+        <RadioButton
+            android:id="@+id/classHSC_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:textColor="#ffff"
+
+            android:text="HSC"
+            android:typeface="serif"
+            />
+
+        <RadioButton
+            android:id="@+id/classAdmission_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:textColor="#ffff"
+
+            android:text="Admission"
+            android:typeface="serif"
+
+            />
+    </RadioGroup>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:paddingLeft="10dp"
+        android:text="Division:"
+        android:typeface="serif"
+        android:textColor="#ffff"
+        android:textSize="20dp"
+        />
+
+
+    <RadioGroup
+        android:id="@+id/radiogrp_division_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+
+        >
+
+
+        <RadioButton
+            android:id="@+id/division_science"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:textColor="#ffff"
+            android:text="Science"
+            android:typeface="serif"
+            />
+        <RadioButton
+            android:id="@+id/division_arts"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="30dp"
+            android:textColor="#ffff"
+
+            android:text="Arts"
+            android:typeface="serif"
+            />
+
+        <RadioButton
+            android:id="@+id/division_commerce"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="30dp"
+            android:textColor="#ffff"
+
+            android:text="Commerce"
+            android:typeface="serif"
+            />
+
+
+    </RadioGroup>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+
+        android:text="Choose Subjects "
+        android:textColor="#ffff"
+        android:typeface="serif"
+        android:textSize="20dp"
+        android:paddingLeft="5dp"
+        />
+
+    <CheckBox
+        android:id="@+id/sub_physics"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:textColor="#ffff"
+        android:text="Physics" />
+
+    <CheckBox
+        android:id="@+id/sub_chemistry"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:textColor="#ffff"
+
+        android:text="Chemistry" />
+
+    <CheckBox
+        android:id="@+id/sub_math"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:textColor="#ffff"
+        android:text="Math" />
+
+    <CheckBox
+        android:id="@+id/sub_ict"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:textColor="#ffff"
+        android:text="ICT" />
+
+    <CheckBox
+        android:id="@+id/sub_biology"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:textColor="#ffff"
+        android:text="BioLogy" />
+
+    <CheckBox
+        android:id="@+id/sub_economics"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:textColor="#ffff"
+
+        android:text="Economics" />
+
+    <CheckBox
+        android:id="@+id/sub_bangla"
+        android:layout_width="wrap_content"
+        android:layout_height="34dp"
+        android:layout_margin="5dp"
+        android:textColor="#ffff"
+        android:text="Bangla" />
+
+    <CheckBox
+        android:id="@+id/sub_english"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:textColor="#ffff"
+        android:text="English" />
+
+    <CheckBox
+        android:id="@+id/sub_islamic_history"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:textColor="#ffff"
+        android:text="Islamic History" />
+
+
+    <Button
+        android:id="@+id/btn_tutor_form_submit"
+        android:layout_width="210dp"
+        android:layout_height="36dp"
+        android:layout_gravity="center"
+
+        android:layout_marginTop="60dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/button_rounded"
+        android:text="CONFIRM "
+        android:textColor="@color/common_google_signin_btn_text_dark"
+        android:typeface="serif" />
+
+
+
+</LinearLayout>
+</ScrollView>

@@ -1,0 +1,56 @@
+{
+  "project_info": {
+    "project_number": "1014518810889",
+    "firebase_url": "https://homeserviceapp-c10b0.firebaseio.com",
+    "project_id": "homeserviceapp-c10b0",
+    "storage_bucket": "homeserviceapp-c10b0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1014518810889:android:974903fc6bfc048b",
+        "android_client_info": {
+          "package_name": "com.example.homeserviceapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1014518810889-b4rd20car66m56so1rd96hl4cltqtrge.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.homeserviceapp",
+            "certificate_hash": "7a67564c24beb8e7caf8eb20c2bd4ea2ba7036cc"
+          }
+        },
+        {
+          "client_id": "1014518810889-79rgb233qokmpep4sdh7b0hbbbcrhpto.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.homeserviceapp",
+            "certificate_hash": "1c1d267dd9fde7d4349474441314e98181faec91"
+          }
+        },
+        {
+          "client_id": "1014518810889-qqta9lldu3jlsfduea6bsqtvjnkq6p1m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA_ZRdthh8u1diRR7xC7u1dPmj4qhysqRM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1014518810889-qqta9lldu3jlsfduea6bsqtvjnkq6p1m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

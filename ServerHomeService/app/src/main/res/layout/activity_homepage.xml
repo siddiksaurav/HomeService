@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroundimageactive"
+    tools:context=".HomepageActivity">
+
+    <TextView
+        android:id="@+id/activetextView"
+        android:layout_width="182dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"
+        android:text="INACTIVE"
+        android:textColor="#FCFCFC"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="47dp"
+        tools:layout_editor_absoluteY="32dp" />
+
+    <Switch
+        android:id="@+id/activeswitch"
+        android:layout_width="87dp"
+        android:layout_height="53dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="10dp"
+        android:background="#2E6FC9"
+        android:textSize="24dp"
+        tools:layout_editor_absoluteX="287dp"
+        tools:layout_editor_absoluteY="32dp" />
+
+</LinearLayout>
